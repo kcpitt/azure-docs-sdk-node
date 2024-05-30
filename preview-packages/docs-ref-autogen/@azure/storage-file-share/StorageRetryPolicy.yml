@@ -10,7 +10,7 @@ type: class
 constructors:
   - name: >-
       StorageRetryPolicy(RequestPolicy, RequestPolicyOptionsLike,
-      StorageRetryOptions)
+      StorageRetryOptions_2)
     uid: '@azure/storage-file-share.StorageRetryPolicy.constructor'
     package: '@azure/storage-file-share'
     summary: Creates an instance of RetryPolicy.
@@ -19,7 +19,7 @@ constructors:
     syntax:
       content: >-
         new StorageRetryPolicy(nextPolicy: RequestPolicy, options:
-        RequestPolicyOptionsLike, retryOptions?: StorageRetryOptions)
+        RequestPolicyOptionsLike, retryOptions?: StorageRetryOptions_2)
       parameters:
         - id: nextPolicy
           type: <xref uid="@azure/storage-file-share.IHttpClient" />
@@ -28,7 +28,7 @@ constructors:
           type: <xref uid="@azure/storage-file-share.RequestPolicyOptions" />
           description: ''
         - id: retryOptions
-          type: <xref uid="@azure/storage-file-share.StorageRetryOptions" />
+          type: StorageRetryOptions_2
           description: ''
 inheritedMethods:
   - name: log(HttpPipelineLogLevel, string)
