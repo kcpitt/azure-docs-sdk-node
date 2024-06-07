@@ -6,7 +6,7 @@ ms.topic: reference
 ms.devlang: javascript
 ms.service: servicelinker
 ---
-# Azure ServiceLinkerManagement client library for JavaScript - version 2.1.1-alpha.20240606.1 
+# Azure ServiceLinkerManagement client library for JavaScript - version 2.1.1-alpha.20240607.1 
 
 
 This package contains an isomorphic SDK (runs both in Node.js and in browsers) for Azure ServiceLinkerManagement client.
